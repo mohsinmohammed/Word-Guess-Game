@@ -2,7 +2,7 @@
 
 ## Overview of the project:
 
-The project uses HTML and CSS to create an interface to play the Hangman game. The theme for the game is NFL. Using Javascript random team names are displayed as blanks and the users would have to guess the letters. By pressing keys letters can be selected. When correct keys are pressed, the Javascript would reveal the letters. Number of wins are incremented when all the letters are guessed correctly. Letters that were guessed incorrectly and the remaining guesses are also displayed. The program will generate new words when the player correctly guesses the word or when there are no remaining guesses. 
+The project uses HTML and CSS to create an interface for playing the Hangman game. The theme for the game is NFL. Using Javascript random team names are displayed as blanks and the users would have to guess the letters. By pressing keys letters can be selected. When correct keys are pressed, the Javascript would reveal the letters. Number of wins are incremented when all the letters are guessed correctly. Letters that were guessed incorrectly and the remaining guesses are also displayed. The program will generate new words when the player correctly guesses the word or when there are no remaining guesses. 
  
 ## Project use:
 The project is deployed in Github pages. People can access the game website and play the game for fun.  
