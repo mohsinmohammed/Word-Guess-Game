@@ -26,7 +26,7 @@ var generateRandomWord = function() {
     {
         blanksToFill.push('_');
     }
-    docUnderScore.textContent = blanksToFill.join(' ');
+    docUnderScore.textContent = "'" + blanksToFill.join(' ') + "'";
     docWrongGuess.textContent = incorrectGuess;
     docGuessRemain.textContent = guessRemain;
 }
@@ -51,7 +51,7 @@ document.onkeyup = function (event) {
             }
         }
         
-        docUnderScore.textContent = blanksToFill.join(' ');
+        docUnderScore.textContent = "'" + blanksToFill.join(' ') + "'";
     // check if user word matches random word, reset the random word and update wins counter
         if(blanksToFill.join('').toLowerCase() == choosenWord){
             numWins++;
@@ -64,8 +64,9 @@ document.onkeyup = function (event) {
     else
     {   
         guessRemain--;
-        incorrectGuess.push(userInput);
-        docWrongGuess.textContent = incorrectGuess;
+        incorrectGuess.push(userInput.toUpperCase());
+        docWrongGuess.textContent = "'" + incorrectGuess.join(" ") + "'";
+        
 
         if(guessRemain == 0)
             generateRandomWord();
