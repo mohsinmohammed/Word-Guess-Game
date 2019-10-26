@@ -1,0 +1,49 @@
+header{
+    border: 10px dotted black;
+    font-size: 50px;
+    text-align: center;
+    height: 150px;
+    width: 80%;
+    margin: 25px auto;
+}
+
+#underScore{
+    border: 5px dotted black;
+    font-size: 50px;
+    text-align: center;
+    height: 100px;
+    width: 80%;
+    margin: 25px auto;
+}
+
+.tg{
+    text-align: center;
+    font-size: 25px;
+}
+#wins{
+    border: 5px dotted black;
+    font-size: 50px;
+    text-align: center;
+    height: 150px;
+    width: 50%;
+    padding-top: 75px;
+    margin: 25px auto;
+}
+
+#guessRemaining{
+    border: 5px dotted black;
+    font-size: 50px;
+    text-align: center;
+    height: 50px;
+    width: 50%;
+    margin: 25px auto;
+}
+
+#wrongGuess{
+    border: 5px dotted black;
+    font-size: 50px;
+    text-align: center;
+    height: 75px;
+    width: 50%;
+    margin: 25px auto;
+}
